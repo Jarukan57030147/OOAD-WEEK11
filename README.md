@@ -86,3 +86,23 @@ close --> [*]
 [![IMAGE ALT TEXT](http://www.plantuml.com/plantuml/img/RO-n3iCW34HtliBAM8cXQuTyHRSe0seGGQKumaRyVWsaOUc4k7ldiuaDMvYUQ8Xj0emJ68A0qTtLSbj19-zsrdENu06SKnHCzVzb5qnl7vqwNz0riWKhYIKVXumE_kDvLKtK6vOuKXKAM0P4VIlQCqD5srAlW6H7mQ-voJBXWi-AlrPNgYV7VG40)
 
 
+  * รูปที่5 วงจรชีวิตของไก่
+
+code
+
+[*] --> chicken
+
+chicken --> egg : lay
+
+chick -left-> chicken : grow
+
+egg --> omelet : cook
+
+egg --> chick : hatch
+
+omelet -left-> [*]
+
+chicken --> [*]
+
+
+[![IMAGE ALT TEXT](http://www.plantuml.com/plantuml/img/YzQALT3LjLD8piXCpaxDuuBIOB7Kz7G5AuMSn4g8g89kJcfQ2K8jK2wzAB-S2wGCf3m_DpKdjGGecfoVdmqNXMYrKiX8B4dEu8AgWPaKhHMBOYE83m00)
