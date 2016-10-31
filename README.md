@@ -60,3 +60,29 @@ PlayDisc --> [*]
 
 [![IMAGE ALT TEXT](http://www.plantuml.com/plantuml/img/YzQALT0joapFAD6rKyX9oKdb0X4ALWfv-GefcSN942vSHNbYPabcNhfZSabcVXvGbMTUSMfHYO8BI2Mgd2vGTK1EOYL82gWGnEI2yq6IqLgnN000)
 
+ * รูปที่ 4 เครื่องทำขนมปัง
+ 
+code
+
+state "Toaster on" as long1
+
+[*] -right-> long1 : turn on
+
+long1 -right-> working
+
+working --> ldle : [upper limit]
+
+ldle -down-> working : [lower limit]
+
+state "shut down" as close
+
+working -right-> close : shut down
+
+ldle --> close : shut down
+
+close --> [*]
+
+
+[![IMAGE ALT TEXT](http://www.plantuml.com/plantuml/img/RO-n3iCW34HtliBAM8cXQuTyHRSe0seGGQKumaRyVWsaOUc4k7ldiuaDMvYUQ8Xj0emJ68A0qTtLSbj19-zsrdENu06SKnHCzVzb5qnl7vqwNz0riWKhYIKVXumE_kDvLKtK6vOuKXKAM0P4VIlQCqD5srAlW6H7mQ-voJBXWi-AlrPNgYV7VG40)
+
+
