@@ -106,3 +106,26 @@ chicken --> [*]
 
 
 [![IMAGE ALT TEXT](http://www.plantuml.com/plantuml/img/YzQALT3LjLD8piXCpaxDuuBIOB7Kz7G5AuMSn4g8g89kJcfQ2K8jK2wzAB-S2wGCf3m_DpKdjGGecfoVdmqNXMYrKiX8B4dEu8AgWPaKhHMBOYE83m00)
+
+
+
+
+
+Activity Diagram
+
+  * รูปที่1 การตัดสินใจหลังตื่นนอน
+  
+code
+
+(*) --> "wake up"
+if then
+--> [hungry] "Eat breakfast"
+--> (*)
+else
+--> [not hungry] "go back to sleep" 
+--> (*)
+end if
+
+[![IMAGE ALT TEXT](http://www.plantuml.com/plantuml/img/HOjD3a0m44RtFSMNMQd45UoSGYm6KwHDApeYRYz8sBwVehIegXfqi1ViAvd5GMU9vgRjlCTfEpjGmuf-4_QEiz8ZYz8Q2LdUCYR5Lqy9FGyUcf23o4huZpXYSUO2)
+
+
