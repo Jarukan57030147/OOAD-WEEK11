@@ -195,3 +195,26 @@ code
 ===B2=== --> (*)
 
 [![IMAGE ALT TEXT](http://www.plantuml.com/plantuml/img/qz3ILD3LjLDGAadCJbN8Bqf9BLBY0WdOsjew6G89BXW3egmijIYpf5AXk2G_ELj90QxI2AGIkrBdejIKp19qjJ06MAc6bYO0)
+
+
+* รูปที่ 5 การกดรหัส
+
+code
+
+(*) --> "Insert card"
+
+-right-> "Enter PIN"
+
+if then
+
+--> [Invalid PIN] "Confiscate PIN"
+
+else
+
+--> [Valid PIN] "Display Menu"
+
+end if
+
+"Display Menu" --> (*)
+
+[![IMAGE ALT TEXT](http://www.plantuml.com/plantuml/img/qz3ILD3LjLDGyimhJYqgKKXEB4fHuj8joapFA049k-QLf1Of17ZwAN5bfYcKPAJcSO6KHtlcbINcPAQ0P68Lb9ppyz8oYvCJIr8XIbDpYbCXwiAGLBba5XVa95Og-ARcbGBLvAKePAPneOg2tQAXfGa0)
