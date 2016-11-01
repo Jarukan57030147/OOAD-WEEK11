@@ -152,3 +152,24 @@ code
 
 [![IMAGE ALT TEXT](http://www.plantuml.com/plantuml/img/qz3ILD3LjLDGAavEp5F8oKmgIYogL4XEB4fHuaA89nONfvP013IqDBcu0000)
 
+
+* รูปที่3 หาหนังสือในร้านหนังสือ
+
+code
+
+(*) --> "find book"
+
+if       then
+
+--> [available] "buy book"
+
+--> (*)
+
+else
+
+--> [not available] "order book"
+
+--> (*)
+
+
+[![IMAGE ALT TEXT](http://www.plantuml.com/plantuml/img/qz3ILD3LjLDGIilCIr58oi_FLkBAJ5E0W9ACr3mka6nqObbYPavYKavgh89IKcabL258IaDBaoirfpWLeYullqG1MMr-KKfg4Pfg0000)
