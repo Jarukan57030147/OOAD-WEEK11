@@ -173,3 +173,25 @@ else
 
 
 [![IMAGE ALT TEXT](http://www.plantuml.com/plantuml/img/qz3ILD3LjLDGIilCIr58oi_FLkBAJ5E0W9ACr3mka6nqObbYPavYKavgh89IKcabL258IaDBaoirfpWLeYullqG1MMr-KKfg4Pfg0000)
+
+
+
+* รูปที่ 4 การสั่งสินค้า
+
+code
+
+(*) --> "take order"
+
+--> ===B1===
+
+===B1=== --> "verity stock" 
+
+--> ===B2===
+
+===B1=== --> "verity Credit" 
+
+--> ===B2===
+
+===B2=== --> (*)
+
+[![IMAGE ALT TEXT](http://www.plantuml.com/plantuml/img/qz3ILD3LjLDGAadCJbN8Bqf9BLBY0WdOsjew6G89BXW3egmijIYpf5AXk2G_ELj90QxI2AGIkrBdejIKp19qjJ06MAc6bYO0)
