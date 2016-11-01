@@ -140,3 +140,15 @@ end if
 [![IMAGE ALT TEXT](http://www.plantuml.com/plantuml/img/HOjD3a0m44RtFSMNMQd45UoSGYm6KwHDApeYRYz8sBwVehIegXfqi1ViAvd5GMU9vgRjlCTfEpjGmuf-4_QEiz8ZYz8Q2LdUCYR5Lqy9FGyUcf23o4huZpXYSUO2)
 
 
+* รูปที่2 การตรวจสอบสินทรัพย์
+
+code
+
+(*) --> "scan library card"
+
+--> "scan asset"
+
+--> (*)
+
+[![IMAGE ALT TEXT](http://www.plantuml.com/plantuml/img/qz3ILD3LjLDGAavEp5F8oKmgIYogL4XEB4fHuaA89nONfvP013IqDBcu0000)
+
