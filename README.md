@@ -111,6 +111,9 @@ chicken --> [*]
 
 
 
+
+
+
 Activity Diagram
 
   * รูปที่1 การตัดสินใจหลังตื่นนอน
@@ -118,13 +121,21 @@ Activity Diagram
 code
 
 (*) --> "wake up"
+
 if then
+
 --> [hungry] "Eat breakfast"
+
 --> (*)
+
 else
+
 --> [not hungry] "go back to sleep" 
+
 --> (*)
+
 end if
+
 
 [![IMAGE ALT TEXT](http://www.plantuml.com/plantuml/img/HOjD3a0m44RtFSMNMQd45UoSGYm6KwHDApeYRYz8sBwVehIegXfqi1ViAvd5GMU9vgRjlCTfEpjGmuf-4_QEiz8ZYz8Q2LdUCYR5Lqy9FGyUcf23o4huZpXYSUO2)
 
